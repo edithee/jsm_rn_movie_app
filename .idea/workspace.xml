@@ -4,34 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bfd875c-2f01-4938-a36e-ca3ca5731d98" name="Changes" comment="add hide headers code">
-      <change afterPath="$PROJECT_DIR$/assets/icons/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/person.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/save.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/highlight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/rankingGradient.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants/icons.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants/images.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/interfaces.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/images.d.ts" afterDir="false" />
+    <list default="true" id="0bfd875c-2f01-4938-a36e-ca3ca5731d98" name="Changes" comment="add nav routing styling">
+      <change afterPath="$PROJECT_DIR$/app/components/searchbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/SpaceMono-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/SpaceMono-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/adaptive-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/partial-react-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/react-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/react-logo@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/react-logo@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/splash-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +96,7 @@
       <workItem from="1744820685851" duration="54000" />
       <workItem from="1744820741530" duration="11775000" />
       <workItem from="1744885113939" duration="37000" />
-      <workItem from="1744885157308" duration="5153000" />
+      <workItem from="1744885157308" duration="9592000" />
     </task>
     <task id="LOCAL-00001" summary="Init basic proj w styling">
       <option name="closed" value="true" />
@@ -161,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744887846072</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add nav routing styling">
+      <option name="closed" value="true" />
+      <created>1744890569065</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744890569065</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +158,7 @@
     <MESSAGE value="add routing test" />
     <MESSAGE value="add tabs routing &amp; hide headers" />
     <MESSAGE value="add hide headers code" />
-    <option name="LAST_COMMIT_MESSAGE" value="add hide headers code" />
+    <MESSAGE value="add nav routing styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="add nav routing styling" />
   </component>
 </project>
