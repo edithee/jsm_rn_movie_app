@@ -5,7 +5,8 @@ import {icons} from "@/constants/icons";
 import SearchBar from "@/app/components/searchbar";
 import {useRouter} from "expo-router";
 import useFetch from "@/services/useFetch";
-import {fetchMovies} from "@/services/api"; //anything w "use" = hook - called at the top of our func components
+import {fetchMovies} from "@/services/api";
+import MovieCard from "@/app/components/MovieCard"; //anything w "use" = hook - called at the top of our func components
 
 export default function Index() {
     const router = useRouter();
@@ -44,7 +45,8 @@ export default function Index() {
                         
                         <FlatList data={movies} renderItem={({item}) => (
                             //automatic return - immediate return i.e. () instead of {}
-                                <Text className="text-white text-sm">{item.title}</Text>
+                            // <Text className="text-white text-sm">{item.title}</Text>
+                            <MovieCard {... item}/>
                         )}
                         keyExtractor={(item) => item.id.toString()}
                                   numColumns={3}
