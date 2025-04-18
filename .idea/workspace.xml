@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bfd875c-2f01-4938-a36e-ca3ca5731d98" name="Changes" comment="add nav routing styling">
-      <change afterPath="$PROJECT_DIR$/app/components/searchbar.tsx" afterDir="false" />
+    <list default="true" id="0bfd875c-2f01-4938-a36e-ca3ca5731d98" name="Changes" comment="add searchbar and temp nav">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/useFetch.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +20,8 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -96,7 +96,7 @@
       <workItem from="1744820685851" duration="54000" />
       <workItem from="1744820741530" duration="11775000" />
       <workItem from="1744885113939" duration="37000" />
-      <workItem from="1744885157308" duration="9592000" />
+      <workItem from="1744885157308" duration="13516000" />
     </task>
     <task id="LOCAL-00001" summary="Init basic proj w styling">
       <option name="closed" value="true" />
@@ -146,7 +146,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744890569065</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add icon images">
+      <option name="closed" value="true" />
+      <created>1744931805353</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744931805353</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add searchbar and temp nav">
+      <option name="closed" value="true" />
+      <created>1744931823970</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744931823970</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +175,8 @@
     <MESSAGE value="add tabs routing &amp; hide headers" />
     <MESSAGE value="add hide headers code" />
     <MESSAGE value="add nav routing styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="add nav routing styling" />
+    <MESSAGE value="add icon images" />
+    <MESSAGE value="add searchbar and temp nav" />
+    <option name="LAST_COMMIT_MESSAGE" value="add searchbar and temp nav" />
   </component>
 </project>
