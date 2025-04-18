@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bfd875c-2f01-4938-a36e-ca3ca5731d98" name="Changes" comment="add useFetch services api to load list in home search - top 20 movies">
-      <change afterPath="$PROJECT_DIR$/app/components/MovieCard.tsx" afterDir="false" />
+    <list default="true" id="0bfd875c-2f01-4938-a36e-ca3ca5731d98" name="Changes" comment="add MovieCard component and load into index Flatlist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/MovieCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/MovieCard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +94,7 @@
       <workItem from="1744820685851" duration="54000" />
       <workItem from="1744820741530" duration="11775000" />
       <workItem from="1744885113939" duration="37000" />
-      <workItem from="1744885157308" duration="16907000" />
+      <workItem from="1744885157308" duration="17595000" />
     </task>
     <task id="LOCAL-00001" summary="Init basic proj w styling">
       <option name="closed" value="true" />
@@ -186,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744997192107</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add MovieCard component and load into index Flatlist">
+      <option name="closed" value="true" />
+      <created>1744998193377</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744998193377</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +210,7 @@
     <MESSAGE value="add dynamic fetch func" />
     <MESSAGE value="add fetch TMDB config &amp; api" />
     <MESSAGE value="add useFetch services api to load list in home search - top 20 movies" />
-    <option name="LAST_COMMIT_MESSAGE" value="add useFetch services api to load list in home search - top 20 movies" />
+    <MESSAGE value="add MovieCard component and load into index Flatlist" />
+    <option name="LAST_COMMIT_MESSAGE" value="add MovieCard component and load into index Flatlist" />
   </component>
 </project>
